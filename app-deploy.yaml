@@ -8,7 +8,7 @@ metadata:
     commit.image.appsody.dev/author: Ubuntu <ubuntu@ip-172-31-24-195.ap-south-1.compute.internal>
     commit.image.appsody.dev/committer: Ubuntu <ubuntu@ip-172-31-24-195.ap-south-1.compute.internal>
     commit.image.appsody.dev/contextDir: /HelloWorld
-    commit.image.appsody.dev/date: Mon Apr 20 05:40:16 2020 +0000
+    commit.image.appsody.dev/date: Tue Apr 21 13:06:57 2020 +0000
     commit.image.appsody.dev/message: test change
     commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
@@ -18,11 +18,11 @@ metadata:
     description: This image is the Kabanero development container for the java-spring-boot2
       stack
     distribution-scope: public
-    image.opencontainers.org/created: "2020-04-21T12:10:57Z"
-    image.opencontainers.org/documentation: https://arijitm0800@dev.azure.com/arijitm0800/Modernizr/_git/Modernizr-ui
-    image.opencontainers.org/revision: c50f234661e39552e4ad0338141d43dc03975af8-modified
-    image.opencontainers.org/source: https://arijitm0800@dev.azure.com/arijitm0800/Modernizr/_git/Modernizr-ui/tree/master
-    image.opencontainers.org/url: https://arijitm0800@dev.azure.com/arijitm0800/Modernizr/_git/Modernizr-ui
+    image.opencontainers.org/created: "2020-04-21T14:07:51Z"
+    image.opencontainers.org/documentation: https://github.com/srutisarkar/helloworldtest
+    image.opencontainers.org/revision: d0ee5ed7c4b55ac6eecd3ea4c25e11dc05552d0b-modified
+    image.opencontainers.org/source: https://github.com/srutisarkar/helloworldtest/tree/master
+    image.opencontainers.org/url: https://github.com/srutisarkar/helloworldtest
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -61,7 +61,7 @@ metadata:
     stack.appsody.dev/version: 0.3.28
   name: helloworld
 spec:
-  applicationImage: srutisarkar/helloworldapp:latest
+  applicationImage: dev.local/helloworld
   createKnativeService: false
   expose: true
   namespace: helloworldtest
