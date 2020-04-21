@@ -64,6 +64,7 @@ spec:
   applicationImage: srutisarkar/helloworldapp:latest
   createKnativeService: false
   expose: true
+  namespace: helloworldtest
   livenessProbe:
     failureThreshold: 12
     httpGet:
